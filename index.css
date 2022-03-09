@@ -54,7 +54,7 @@ main {
 
 article {
     padding-top: 6em;
-    max-width: 40%;
+    width: 40%;
     float: right;
     padding-right: 5%;
 }
@@ -98,9 +98,13 @@ p, h4 {
     width:60%;
 }
 
-.Testimonial{
-    display: inline-block;
+#box{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
+#site{
+    height:2em;
+}
