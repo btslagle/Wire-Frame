@@ -31,3 +31,8 @@ a {
     color: inherit;
     font-weight: 700;
 }
+
+#error {
+    font-size: 50px;
+    text-align: center;
+}
