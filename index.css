@@ -46,9 +46,13 @@ a {
 }
 
 th > img {
-    height: 150px;
-    width: 160px;
+    width: 6em;
+    height: 8em;
     padding: 15px;
+}
+
+table{
+    width: 50%;
 }
 
 #Stacey {
@@ -62,8 +66,15 @@ th > img {
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.peters {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     width: 70%;
 }
+
 
 p, h4 {
     margin-left: auto;
