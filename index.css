@@ -46,29 +46,18 @@ a {
 }
 
 th > img {
-    height: 90px;
-    width: 100px;
+    height: 150px;
+    width: 160px;
+    padding: 15px;
 }
 
-th:nth-child(2) {
-    padding-left: 25px;
-    padding-right: 25px;
-}
 
-th {
-    padding-bottom: 10px;
-}
-
-table{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 
 #Stacey {
     width: 600px;
     height: 350px;
     max-width: 100%;
+    padding-top: 30px;
 }
 
 .center {
@@ -85,7 +74,7 @@ p, h4 {
 }
 
 #site{
-    height:2em;
+    height:250px;
 }
 
 #testimonials{
@@ -93,9 +82,43 @@ p, h4 {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
     column-gap: 5em;
+    padding-top: 30px;
 }
 
 #box{
     grid-column: 1 / span 2;
     justify-self: center;
+    padding-top: 30px;
 }
+
+figcaption {
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+td {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation +tr {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+#social {
+    float: right;
+} 
