@@ -122,3 +122,8 @@ td {
 #social {
     float: right;
 } 
+#footer2 {
+    display: grid;
+    grid-template-rows: auto;   
+    grid-template-columns: 1fr 1fr;
+}
