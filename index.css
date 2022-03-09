@@ -51,8 +51,6 @@ th > img {
     padding: 15px;
 }
 
-
-
 #Stacey {
     width: 600px;
     height: 350px;
@@ -74,7 +72,8 @@ p, h4 {
 }
 
 #site{
-    height:250px;
+    height:200px;
+    width: 500px;
 }
 
 #testimonials{
@@ -99,19 +98,8 @@ figcaption {
 footer {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 3.5fr 1.5fr .5fr;
     
-}
-
-td {
-    margin: 0;
-    padding: 0;
-
-}
-
-.navigation +tr {
-    margin: 0;
-    padding: 0;
 }
 
 .icon {
