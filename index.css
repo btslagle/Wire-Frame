@@ -41,3 +41,34 @@ a {
     text-align: center;
     text-decoration: underline;
 }
+
+main {
+    max-width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+article {
+    max-width: 40%;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+th > img {
+    height: 90px;
+    width: 100px;
+}
+
+th:nth-child(2) {
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+th {
+    padding-bottom: 10px;
+}
+
