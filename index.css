@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
 
+body {
+font-family:Sansita Swashed;
+}
+
 header {
     display:flex;
     justify-content:space-between;
@@ -55,6 +59,9 @@ article {
     float: right;
     margin-left: 5%;
     margin-right: 5%;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
 }
 
 th > img {
@@ -71,4 +78,22 @@ th:nth-child(2) {
 th {
     padding-bottom: 10px;
 }
+
+#Stacey {
+    width: 600px;
+    height: 350px;
+}
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p, h4 {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
 
